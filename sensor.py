@@ -10,8 +10,6 @@ from datetime import timedelta
 import logging
 import aiohttp
 
-import random
-
 from homeassistant.components.sensor import SensorEntity
 from homeassistant.helpers.event import async_track_time_interval
 
