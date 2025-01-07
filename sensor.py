@@ -46,7 +46,7 @@ class ElectrCostsSensor(SensorEntity):
         self._attr_unit_of_measurement = "Kč"        
         self._attr_device_class = None
         self._attr_device_state_class = SensorStateClass.TOTAL
-        self._update_interval = timedelta(seconds=20)
+        self._update_interval = timedelta(seconds=60)
         self._resource = "http://185.15.110.81/cgi_s0d"
         
         _LOGGER.debug("ElectrCosts sensor initialized with update interval: %s", self._update_interval)
