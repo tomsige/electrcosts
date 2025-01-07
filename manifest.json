@@ -1,0 +1,9 @@
+{
+    "domain": "electrcosts",
+    "name": "ElectrCosts",
+    "version": "1.0.0",
+    "dependencies": [],
+    "requirements": [],
+    "codeowners": ["@tomsige"],
+    "config_flow": true
+}
